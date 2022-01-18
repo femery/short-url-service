@@ -1,0 +1,15 @@
+[MySQLConf]
+Host = "localhost"
+Port = "3306"
+User = "root"
+Password = "123321"
+DbName = "2022"
+
+[UrlGenerateConf]
+UrlPoolSize = 100
+Retry = false
+
+[LocalCache]
+Open = true
+Size = 100
+ttl = 0
